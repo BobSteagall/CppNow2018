@@ -1,0 +1,379 @@
+******  UTF-8 to UTF-32 Conversion  ******
+
+for file: 'english_wiki.txt'
+UTF-8 to UTF-32 took 3283 msec (360275/358131 units/points) (2980 reps) (iconv)
+UTF-8 to UTF-32 took 4402 msec (360275/358131 units/points) (2980 reps) (llvm)
+UTF-8 to UTF-32 took 3457 msec (360275/358131 units/points) (2980 reps) (av)
+UTF-8 to UTF-32 took 3907 msec (360275/358131 units/points) (2980 reps) (std::codecvt)
+UTF-8 to UTF-32 took  941 msec (360275/358131 units/points) (2980 reps) (Boost.Text)
+UTF-8 to UTF-32 took 2712 msec (360275/358131 units/points) (2980 reps) (hoehrmann)
+UTF-8 to UTF-32 took  959 msec (360275/358131 units/points) (2980 reps) (kewb-basic)
+UTF-8 to UTF-32 took  654 msec (360275/358131 units/points) (2980 reps) (kewb-fast)
+UTF-8 to UTF-32 took  406 msec (360275/358131 units/points) (2980 reps) (kewb-sse)
+
+for file: 'chinese_wiki.txt'
+UTF-8 to UTF-32 took 3129 msec (192042/151759 units/points) (5591 reps) (iconv)
+UTF-8 to UTF-32 took 4049 msec (192042/151759 units/points) (5591 reps) (llvm)
+UTF-8 to UTF-32 took 3572 msec (192042/151759 units/points) (5591 reps) (av)
+UTF-8 to UTF-32 took 4024 msec (192042/151759 units/points) (5591 reps) (std::codecvt)
+UTF-8 to UTF-32 took 1596 msec (192042/151759 units/points) (5591 reps) (Boost.Text)
+UTF-8 to UTF-32 took 3006 msec (192042/151759 units/points) (5591 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1366 msec (192042/151759 units/points) (5591 reps) (kewb-basic)
+UTF-8 to UTF-32 took 1073 msec (192042/151759 units/points) (5591 reps) (kewb-fast)
+UTF-8 to UTF-32 took  659 msec (192042/151759 units/points) (5591 reps) (kewb-sse)
+
+for file: 'hindi_wiki.txt'
+UTF-8 to UTF-32 took 3228 msec (156575/112386 units/points) (6857 reps) (iconv)
+UTF-8 to UTF-32 took 4037 msec (156575/112386 units/points) (6857 reps) (llvm)
+UTF-8 to UTF-32 took 5741 msec (156575/112386 units/points) (6857 reps) (av)
+UTF-8 to UTF-32 took 4027 msec (156575/112386 units/points) (6857 reps) (std::codecvt)
+UTF-8 to UTF-32 took 2150 msec (156575/112386 units/points) (6857 reps) (Boost.Text)
+UTF-8 to UTF-32 took 3313 msec (156575/112386 units/points) (6857 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1581 msec (156575/112386 units/points) (6857 reps) (kewb-basic)
+UTF-8 to UTF-32 took 1227 msec (156575/112386 units/points) (6857 reps) (kewb-fast)
+UTF-8 to UTF-32 took  964 msec (156575/112386 units/points) (6857 reps) (kewb-sse)
+
+for file: 'japanese_wiki.txt'
+UTF-8 to UTF-32 took 3193 msec (454575/291145 units/points) (2362 reps) (iconv)
+UTF-8 to UTF-32 took 3848 msec (454575/291145 units/points) (2362 reps) (llvm)
+UTF-8 to UTF-32 took 3580 msec (454575/291145 units/points) (2362 reps) (av)
+UTF-8 to UTF-32 took 3719 msec (454575/291145 units/points) (2362 reps) (std::codecvt)
+UTF-8 to UTF-32 took 2017 msec (454575/291145 units/points) (2362 reps) (Boost.Text)
+UTF-8 to UTF-32 took 3139 msec (454575/291145 units/points) (2362 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1445 msec (454575/291145 units/points) (2362 reps) (kewb-basic)
+UTF-8 to UTF-32 took 1195 msec (454575/291145 units/points) (2362 reps) (kewb-fast)
+UTF-8 to UTF-32 took  939 msec (454575/291145 units/points) (2362 reps) (kewb-sse)
+
+for file: 'korean_wiki.txt'
+UTF-8 to UTF-32 took 3417 msec (124492/101142 units/points) (8624 reps) (iconv)
+UTF-8 to UTF-32 took 4360 msec (124492/101142 units/points) (8624 reps) (llvm)
+UTF-8 to UTF-32 took 3753 msec (124492/101142 units/points) (8624 reps) (av)
+UTF-8 to UTF-32 took 3902 msec (124492/101142 units/points) (8624 reps) (std::codecvt)
+UTF-8 to UTF-32 took 1774 msec (124492/101142 units/points) (8624 reps) (Boost.Text)
+UTF-8 to UTF-32 took 3167 msec (124492/101142 units/points) (8624 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1607 msec (124492/101142 units/points) (8624 reps) (kewb-basic)
+UTF-8 to UTF-32 took 1219 msec (124492/101142 units/points) (8624 reps) (kewb-fast)
+UTF-8 to UTF-32 took  844 msec (124492/101142 units/points) (8624 reps) (kewb-sse)
+
+for file: 'portuguese_wiki.txt'
+UTF-8 to UTF-32 took 3412 msec (180277/176499 units/points) (5956 reps) (iconv)
+UTF-8 to UTF-32 took 4595 msec (180277/176499 units/points) (5956 reps) (llvm)
+UTF-8 to UTF-32 took 3750 msec (180277/176499 units/points) (5956 reps) (av)
+UTF-8 to UTF-32 took 4224 msec (180277/176499 units/points) (5956 reps) (std::codecvt)
+UTF-8 to UTF-32 took 1124 msec (180277/176499 units/points) (5956 reps) (Boost.Text)
+UTF-8 to UTF-32 took 2989 msec (180277/176499 units/points) (5956 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1305 msec (180277/176499 units/points) (5956 reps) (kewb-basic)
+UTF-8 to UTF-32 took  868 msec (180277/176499 units/points) (5956 reps) (kewb-fast)
+UTF-8 to UTF-32 took  475 msec (180277/176499 units/points) (5956 reps) (kewb-sse)
+
+for file: 'russian_wiki.txt'
+UTF-8 to UTF-32 took 3924 msec (650206/530393 units/points) (1651 reps) (iconv)
+UTF-8 to UTF-32 took 4661 msec (650206/530393 units/points) (1651 reps) (llvm)
+UTF-8 to UTF-32 took 4028 msec (650206/530393 units/points) (1651 reps) (av)
+UTF-8 to UTF-32 took 4088 msec (650206/530393 units/points) (1651 reps) (std::codecvt)
+UTF-8 to UTF-32 took 1949 msec (650206/530393 units/points) (1651 reps) (Boost.Text)
+UTF-8 to UTF-32 took 3219 msec (650206/530393 units/points) (1651 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1561 msec (650206/530393 units/points) (1651 reps) (kewb-basic)
+UTF-8 to UTF-32 took 1194 msec (650206/530393 units/points) (1651 reps) (kewb-fast)
+UTF-8 to UTF-32 took  924 msec (650206/530393 units/points) (1651 reps) (kewb-sse)
+
+for file: 'swedish_wiki.txt'
+UTF-8 to UTF-32 took 3325 msec (118876/116176 units/points) (9032 reps) (iconv)
+UTF-8 to UTF-32 took 4516 msec (118876/116176 units/points) (9032 reps) (llvm)
+UTF-8 to UTF-32 took 3774 msec (118876/116176 units/points) (9032 reps) (av)
+UTF-8 to UTF-32 took 3911 msec (118876/116176 units/points) (9032 reps) (std::codecvt)
+UTF-8 to UTF-32 took 1149 msec (118876/116176 units/points) (9032 reps) (Boost.Text)
+UTF-8 to UTF-32 took 3031 msec (118876/116176 units/points) (9032 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1374 msec (118876/116176 units/points) (9032 reps) (kewb-basic)
+UTF-8 to UTF-32 took  899 msec (118876/116176 units/points) (9032 reps) (kewb-fast)
+UTF-8 to UTF-32 took  442 msec (118876/116176 units/points) (9032 reps) (kewb-sse)
+
+for file: 'stress_test_0.txt'
+UTF-8 to UTF-32 took 3277 msec (100000/100000 units/points) (10737 reps) (iconv)
+UTF-8 to UTF-32 took 4203 msec (100000/100000 units/points) (10737 reps) (llvm)
+UTF-8 to UTF-32 took 3273 msec (100000/100000 units/points) (10737 reps) (av)
+UTF-8 to UTF-32 took 3427 msec (100000/100000 units/points) (10737 reps) (std::codecvt)
+UTF-8 to UTF-32 took  886 msec (100000/100000 units/points) (10737 reps) (Boost.Text)
+UTF-8 to UTF-32 took 2695 msec (100000/100000 units/points) (10737 reps) (hoehrmann)
+UTF-8 to UTF-32 took  902 msec (100000/100000 units/points) (10737 reps) (kewb-basic)
+UTF-8 to UTF-32 took  593 msec (100000/100000 units/points) (10737 reps) (kewb-fast)
+UTF-8 to UTF-32 took  402 msec (100000/100000 units/points) (10737 reps) (kewb-sse)
+
+for file: 'stress_test_1.txt'
+UTF-8 to UTF-32 took 2542 msec (300000/100000 units/points) (3579 reps) (iconv)
+UTF-8 to UTF-32 took 2579 msec (300000/100000 units/points) (3579 reps) (llvm)
+UTF-8 to UTF-32 took 2973 msec (300000/100000 units/points) (3579 reps) (av)
+UTF-8 to UTF-32 took 3845 msec (300000/100000 units/points) (3579 reps) (std::codecvt)
+UTF-8 to UTF-32 took 2281 msec (300000/100000 units/points) (3579 reps) (Boost.Text)
+UTF-8 to UTF-32 took 2684 msec (300000/100000 units/points) (3579 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1077 msec (300000/100000 units/points) (3579 reps) (kewb-basic)
+UTF-8 to UTF-32 took 1096 msec (300000/100000 units/points) (3579 reps) (kewb-fast)
+UTF-8 to UTF-32 took 1130 msec (300000/100000 units/points) (3579 reps) (kewb-sse)
+
+for file: 'stress_test_2.txt'
+UTF-8 to UTF-32 took 2822 msec (200000/100000 units/points) (5368 reps) (iconv)
+UTF-8 to UTF-32 took 5994 msec (200000/100000 units/points) (5368 reps) (llvm)
+UTF-8 to UTF-32 took 3753 msec (200000/100000 units/points) (5368 reps) (av)
+UTF-8 to UTF-32 took 3786 msec (200000/100000 units/points) (5368 reps) (std::codecvt)
+UTF-8 to UTF-32 took 2017 msec (200000/100000 units/points) (5368 reps) (Boost.Text)
+UTF-8 to UTF-32 took 2804 msec (200000/100000 units/points) (5368 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1083 msec (200000/100000 units/points) (5368 reps) (kewb-basic)
+UTF-8 to UTF-32 took 1004 msec (200000/100000 units/points) (5368 reps) (kewb-fast)
+UTF-8 to UTF-32 took 1986 msec (200000/100000 units/points) (5368 reps) (kewb-sse)
+
+for file: 'hindi_wiki_in_english.txt'
+UTF-8 to UTF-32 took 3369 msec (203337/200687 units/points) (5280 reps) (iconv)
+UTF-8 to UTF-32 took 4490 msec (203337/200687 units/points) (5280 reps) (llvm)
+UTF-8 to UTF-32 took 3487 msec (203337/200687 units/points) (5280 reps) (av)
+UTF-8 to UTF-32 took 4190 msec (203337/200687 units/points) (5280 reps) (std::codecvt)
+UTF-8 to UTF-32 took  959 msec (203337/200687 units/points) (5280 reps) (Boost.Text)
+UTF-8 to UTF-32 took 2737 msec (203337/200687 units/points) (5280 reps) (hoehrmann)
+UTF-8 to UTF-32 took  972 msec (203337/200687 units/points) (5280 reps) (kewb-basic)
+UTF-8 to UTF-32 took  654 msec (203337/200687 units/points) (5280 reps) (kewb-fast)
+UTF-8 to UTF-32 took  402 msec (203337/200687 units/points) (5280 reps) (kewb-sse)
+
+for file: 'hindi_wiki_in_russian.txt'
+UTF-8 to UTF-32 took 3735 msec (118364/96446 units/points) (9071 reps) (iconv)
+UTF-8 to UTF-32 took 4479 msec (118364/96446 units/points) (9071 reps) (llvm)
+UTF-8 to UTF-32 took 3836 msec (118364/96446 units/points) (9071 reps) (av)
+UTF-8 to UTF-32 took 3866 msec (118364/96446 units/points) (9071 reps) (std::codecvt)
+UTF-8 to UTF-32 took 1918 msec (118364/96446 units/points) (9071 reps) (Boost.Text)
+UTF-8 to UTF-32 took 3179 msec (118364/96446 units/points) (9071 reps) (hoehrmann)
+UTF-8 to UTF-32 took 2967 msec (118364/96446 units/points) (9071 reps) (kewb-basic)
+UTF-8 to UTF-32 took 1239 msec (118364/96446 units/points) (9071 reps) (kewb-fast)
+UTF-8 to UTF-32 took  940 msec (118364/96446 units/points) (9071 reps) (kewb-sse)
+
+for file: 'kermit.txt'
+UTF-8 to UTF-32 took 3479 msec (59870/52946 units/points) (17934 reps) (iconv)
+UTF-8 to UTF-32 took 4530 msec (59870/52946 units/points) (17934 reps) (llvm)
+UTF-8 to UTF-32 took 3800 msec (59870/52946 units/points) (17934 reps) (av)
+UTF-8 to UTF-32 took 3595 msec (59870/52946 units/points) (17934 reps) (std::codecvt)
+UTF-8 to UTF-32 took 1455 msec (59870/52946 units/points) (17934 reps) (Boost.Text)
+UTF-8 to UTF-32 took 3060 msec (59870/52946 units/points) (17934 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1360 msec (59870/52946 units/points) (17934 reps) (kewb-basic)
+UTF-8 to UTF-32 took  971 msec (59870/52946 units/points) (17934 reps) (kewb-fast)
+UTF-8 to UTF-32 took  640 msec (59870/52946 units/points) (17934 reps) (kewb-sse)
+
+for file: 'z1_kosme.txt'
+UTF-8 to UTF-32 took 4225 msec (53/47 units/points) (20259279 reps) (iconv)
+UTF-8 to UTF-32 took 4600 msec (53/47 units/points) (20259279 reps) (llvm)
+UTF-8 to UTF-32 took 3834 msec (53/47 units/points) (20259279 reps) (av)
+UTF-8 to UTF-32 took 4285 msec (53/47 units/points) (20259279 reps) (std::codecvt)
+UTF-8 to UTF-32 took 1321 msec (53/47 units/points) (20259279 reps) (Boost.Text)
+UTF-8 to UTF-32 took 2619 msec (53/47 units/points) (20259279 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1470 msec (53/47 units/points) (20259279 reps) (kewb-basic)
+UTF-8 to UTF-32 took 1073 msec (53/47 units/points) (20259279 reps) (kewb-fast)
+UTF-8 to UTF-32 took  447 msec (53/47 units/points) (20259279 reps) (kewb-sse)
+
+for file: 'z1_ascii.txt'
+UTF-8 to UTF-32 took 3957 msec (37/37 units/points) (29020049 reps) (iconv)
+UTF-8 to UTF-32 took 4776 msec (37/37 units/points) (29020049 reps) (llvm)
+UTF-8 to UTF-32 took 5245 msec (37/37 units/points) (29020049 reps) (av)
+UTF-8 to UTF-32 took 5609 msec (37/37 units/points) (29020049 reps) (std::codecvt)
+UTF-8 to UTF-32 took 1153 msec (37/37 units/points) (29020049 reps) (Boost.Text)
+UTF-8 to UTF-32 took 2574 msec (37/37 units/points) (29020049 reps) (hoehrmann)
+UTF-8 to UTF-32 took 1606 msec (37/37 units/points) (29020049 reps) (kewb-basic)
+UTF-8 to UTF-32 took 1123 msec (37/37 units/points) (29020049 reps) (kewb-fast)
+UTF-8 to UTF-32 took  253 msec (37/37 units/points) (29020049 reps) (kewb-sse)
+
+tabular summary:
+file\algo, iconv, llvm, av, std::codecvt, Boost.Text, Hoehrmann, kewb-basic, kewb-fast, kewb-sse
+english_wiki.txt, 3283, 4402, 3457, 3907, 941, 2712, 959, 654, 406
+chinese_wiki.txt, 3129, 4049, 3572, 4024, 1596, 3006, 1366, 1073, 659
+hindi_wiki.txt, 3228, 4037, 5741, 4027, 2150, 3313, 1581, 1227, 964
+japanese_wiki.txt, 3193, 3848, 3580, 3719, 2017, 3139, 1445, 1195, 939
+korean_wiki.txt, 3417, 4360, 3753, 3902, 1774, 3167, 1607, 1219, 844
+portuguese_wiki.txt, 3412, 4595, 3750, 4224, 1124, 2989, 1305, 868, 475
+russian_wiki.txt, 3924, 4661, 4028, 4088, 1949, 3219, 1561, 1194, 924
+swedish_wiki.txt, 3325, 4516, 3774, 3911, 1149, 3031, 1374, 899, 442
+stress_test_0.txt, 3277, 4203, 3273, 3427, 886, 2695, 902, 593, 402
+stress_test_1.txt, 2542, 2579, 2973, 3845, 2281, 2684, 1077, 1096, 1130
+stress_test_2.txt, 2822, 5994, 3753, 3786, 2017, 2804, 1083, 1004, 1986
+hindi_wiki_in_english.txt, 3369, 4490, 3487, 4190, 959, 2737, 972, 654, 402
+hindi_wiki_in_russian.txt, 3735, 4479, 3836, 3866, 1918, 3179, 2967, 1239, 940
+kermit.txt, 3479, 4530, 3800, 3595, 1455, 3060, 1360, 971, 640
+z1_kosme.txt, 4225, 4600, 3834, 4285, 1321, 2619, 1470, 1073, 447
+z1_ascii.txt, 3957, 4776, 5245, 5609, 1153, 2574, 1606, 1123, 253
+
+
+******  UTF-8 to UTF-16 Conversion  ******
+
+for file: 'english_wiki.txt'
+UTF-8 to UTF-16 took 3152 msec (360275/358137 units/units) (2980 reps) (iconv)
+UTF-8 to UTF-16 took 4076 msec (360275/358137 units/units) (2980 reps) (llvm)
+UTF-8 to UTF-16 took 4466 msec (360275/358137 units/units) (2980 reps) (std::codecvt)
+UTF-8 to UTF-16 took 2420 msec (360275/358137 units/units) (2980 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1526 msec (360275/358137 units/units) (2980 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1274 msec (360275/358137 units/units) (2980 reps) (kewb-basic)
+UTF-8 to UTF-16 took  637 msec (360275/358137 units/units) (2980 reps) (kewb-fast)
+UTF-8 to UTF-16 took  229 msec (360275/358137 units/units) (2980 reps) (kewb-sse)
+
+for file: 'chinese_wiki.txt'
+UTF-8 to UTF-16 took 3066 msec (192042/151766 units/units) (5591 reps) (iconv)
+UTF-8 to UTF-16 took 3687 msec (192042/151766 units/units) (5591 reps) (llvm)
+UTF-8 to UTF-16 took 3876 msec (192042/151766 units/units) (5591 reps) (std::codecvt)
+UTF-8 to UTF-16 took 2974 msec (192042/151766 units/units) (5591 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1812 msec (192042/151766 units/units) (5591 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1628 msec (192042/151766 units/units) (5591 reps) (kewb-basic)
+UTF-8 to UTF-16 took 1072 msec (192042/151766 units/units) (5591 reps) (kewb-fast)
+UTF-8 to UTF-16 took  654 msec (192042/151766 units/units) (5591 reps) (kewb-sse)
+
+for file: 'hindi_wiki.txt'
+UTF-8 to UTF-16 took 3138 msec (156575/112386 units/units) (6857 reps) (iconv)
+UTF-8 to UTF-16 took 3791 msec (156575/112386 units/units) (6857 reps) (llvm)
+UTF-8 to UTF-16 took 5833 msec (156575/112386 units/units) (6857 reps) (std::codecvt)
+UTF-8 to UTF-16 took 3315 msec (156575/112386 units/units) (6857 reps) (Boost.Text)
+UTF-8 to UTF-16 took 2186 msec (156575/112386 units/units) (6857 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1896 msec (156575/112386 units/units) (6857 reps) (kewb-basic)
+UTF-8 to UTF-16 took 1294 msec (156575/112386 units/units) (6857 reps) (kewb-fast)
+UTF-8 to UTF-16 took 1005 msec (156575/112386 units/units) (6857 reps) (kewb-sse)
+
+for file: 'japanese_wiki.txt'
+UTF-8 to UTF-16 took 3094 msec (454575/291146 units/units) (2362 reps) (iconv)
+UTF-8 to UTF-16 took 3527 msec (454575/291146 units/units) (2362 reps) (llvm)
+UTF-8 to UTF-16 took 4059 msec (454575/291146 units/units) (2362 reps) (std::codecvt)
+UTF-8 to UTF-16 took 3384 msec (454575/291146 units/units) (2362 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1887 msec (454575/291146 units/units) (2362 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1621 msec (454575/291146 units/units) (2362 reps) (kewb-basic)
+UTF-8 to UTF-16 took 1204 msec (454575/291146 units/units) (2362 reps) (kewb-fast)
+UTF-8 to UTF-16 took  945 msec (454575/291146 units/units) (2362 reps) (kewb-sse)
+
+for file: 'korean_wiki.txt'
+UTF-8 to UTF-16 took 3212 msec (124492/101142 units/units) (8624 reps) (iconv)
+UTF-8 to UTF-16 took 4010 msec (124492/101142 units/units) (8624 reps) (llvm)
+UTF-8 to UTF-16 took 4031 msec (124492/101142 units/units) (8624 reps) (std::codecvt)
+UTF-8 to UTF-16 took 3164 msec (124492/101142 units/units) (8624 reps) (Boost.Text)
+UTF-8 to UTF-16 took 2085 msec (124492/101142 units/units) (8624 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1837 msec (124492/101142 units/units) (8624 reps) (kewb-basic)
+UTF-8 to UTF-16 took 1188 msec (124492/101142 units/units) (8624 reps) (kewb-fast)
+UTF-8 to UTF-16 took  768 msec (124492/101142 units/units) (8624 reps) (kewb-sse)
+
+for file: 'portuguese_wiki.txt'
+UTF-8 to UTF-16 took 3066 msec (180277/176500 units/units) (5956 reps) (iconv)
+UTF-8 to UTF-16 took 3964 msec (180277/176500 units/units) (5956 reps) (llvm)
+UTF-8 to UTF-16 took 5959 msec (180277/176500 units/units) (5956 reps) (std::codecvt)
+UTF-8 to UTF-16 took 2752 msec (180277/176500 units/units) (5956 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1811 msec (180277/176500 units/units) (5956 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1657 msec (180277/176500 units/units) (5956 reps) (kewb-basic)
+UTF-8 to UTF-16 took  885 msec (180277/176500 units/units) (5956 reps) (kewb-fast)
+UTF-8 to UTF-16 took  305 msec (180277/176500 units/units) (5956 reps) (kewb-sse)
+
+for file: 'russian_wiki.txt'
+UTF-8 to UTF-16 took 3640 msec (650206/530393 units/units) (1651 reps) (iconv)
+UTF-8 to UTF-16 took 3913 msec (650206/530393 units/units) (1651 reps) (llvm)
+UTF-8 to UTF-16 took 4122 msec (650206/530393 units/units) (1651 reps) (std::codecvt)
+UTF-8 to UTF-16 took 3017 msec (650206/530393 units/units) (1651 reps) (Boost.Text)
+UTF-8 to UTF-16 took 2022 msec (650206/530393 units/units) (1651 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1788 msec (650206/530393 units/units) (1651 reps) (kewb-basic)
+UTF-8 to UTF-16 took 1255 msec (650206/530393 units/units) (1651 reps) (kewb-fast)
+UTF-8 to UTF-16 took  926 msec (650206/530393 units/units) (1651 reps) (kewb-sse)
+
+for file: 'swedish_wiki.txt'
+UTF-8 to UTF-16 took 3145 msec (118876/116176 units/units) (9032 reps) (iconv)
+UTF-8 to UTF-16 took 4039 msec (118876/116176 units/units) (9032 reps) (llvm)
+UTF-8 to UTF-16 took 4074 msec (118876/116176 units/units) (9032 reps) (std::codecvt)
+UTF-8 to UTF-16 took 2643 msec (118876/116176 units/units) (9032 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1690 msec (118876/116176 units/units) (9032 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1623 msec (118876/116176 units/units) (9032 reps) (kewb-basic)
+UTF-8 to UTF-16 took  854 msec (118876/116176 units/units) (9032 reps) (kewb-fast)
+UTF-8 to UTF-16 took  307 msec (118876/116176 units/units) (9032 reps) (kewb-sse)
+
+for file: 'stress_test_0.txt'
+UTF-8 to UTF-16 took 2981 msec (100000/100000 units/units) (10737 reps) (iconv)
+UTF-8 to UTF-16 took 3871 msec (100000/100000 units/units) (10737 reps) (llvm)
+UTF-8 to UTF-16 took 6609 msec (100000/100000 units/units) (10737 reps) (std::codecvt)
+UTF-8 to UTF-16 took 2511 msec (100000/100000 units/units) (10737 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1577 msec (100000/100000 units/units) (10737 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1256 msec (100000/100000 units/units) (10737 reps) (kewb-basic)
+UTF-8 to UTF-16 took  630 msec (100000/100000 units/units) (10737 reps) (kewb-fast)
+UTF-8 to UTF-16 took  193 msec (100000/100000 units/units) (10737 reps) (kewb-sse)
+
+for file: 'stress_test_1.txt'
+UTF-8 to UTF-16 took 2530 msec (300000/100000 units/units) (3579 reps) (iconv)
+UTF-8 to UTF-16 took 2320 msec (300000/100000 units/units) (3579 reps) (llvm)
+UTF-8 to UTF-16 took 2695 msec (300000/100000 units/units) (3579 reps) (std::codecvt)
+UTF-8 to UTF-16 took 3411 msec (300000/100000 units/units) (3579 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1336 msec (300000/100000 units/units) (3579 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1244 msec (300000/100000 units/units) (3579 reps) (kewb-basic)
+UTF-8 to UTF-16 took 1233 msec (300000/100000 units/units) (3579 reps) (kewb-fast)
+UTF-8 to UTF-16 took 1127 msec (300000/100000 units/units) (3579 reps) (kewb-sse)
+
+for file: 'stress_test_2.txt'
+UTF-8 to UTF-16 took 2688 msec (200000/100000 units/units) (5368 reps) (iconv)
+UTF-8 to UTF-16 took 2936 msec (200000/100000 units/units) (5368 reps) (llvm)
+UTF-8 to UTF-16 took 2928 msec (200000/100000 units/units) (5368 reps) (std::codecvt)
+UTF-8 to UTF-16 took 3083 msec (200000/100000 units/units) (5368 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1565 msec (200000/100000 units/units) (5368 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1662 msec (200000/100000 units/units) (5368 reps) (kewb-basic)
+UTF-8 to UTF-16 took 1040 msec (200000/100000 units/units) (5368 reps) (kewb-fast)
+UTF-8 to UTF-16 took 1633 msec (200000/100000 units/units) (5368 reps) (kewb-sse)
+
+for file: 'hindi_wiki_in_english.txt'
+UTF-8 to UTF-16 took 3066 msec (203337/200687 units/units) (5280 reps) (iconv)
+UTF-8 to UTF-16 took 3924 msec (203337/200687 units/units) (5280 reps) (llvm)
+UTF-8 to UTF-16 took 4072 msec (203337/200687 units/units) (5280 reps) (std::codecvt)
+UTF-8 to UTF-16 took 2476 msec (203337/200687 units/units) (5280 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1539 msec (203337/200687 units/units) (5280 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1308 msec (203337/200687 units/units) (5280 reps) (kewb-basic)
+UTF-8 to UTF-16 took  643 msec (203337/200687 units/units) (5280 reps) (kewb-fast)
+UTF-8 to UTF-16 took  237 msec (203337/200687 units/units) (5280 reps) (kewb-sse)
+
+for file: 'hindi_wiki_in_russian.txt'
+UTF-8 to UTF-16 took 5919 msec (118364/96446 units/units) (9071 reps) (iconv)
+UTF-8 to UTF-16 took 4062 msec (118364/96446 units/units) (9071 reps) (llvm)
+UTF-8 to UTF-16 took 4102 msec (118364/96446 units/units) (9071 reps) (std::codecvt)
+UTF-8 to UTF-16 took 3074 msec (118364/96446 units/units) (9071 reps) (Boost.Text)
+UTF-8 to UTF-16 took 2084 msec (118364/96446 units/units) (9071 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1827 msec (118364/96446 units/units) (9071 reps) (kewb-basic)
+UTF-8 to UTF-16 took 1285 msec (118364/96446 units/units) (9071 reps) (kewb-fast)
+UTF-8 to UTF-16 took  959 msec (118364/96446 units/units) (9071 reps) (kewb-sse)
+
+for file: 'kermit.txt'
+UTF-8 to UTF-16 took 3220 msec (59870/52978 units/units) (17934 reps) (iconv)
+UTF-8 to UTF-16 took 3939 msec (59870/52978 units/units) (17934 reps) (llvm)
+UTF-8 to UTF-16 took 3992 msec (59870/52978 units/units) (17934 reps) (std::codecvt)
+UTF-8 to UTF-16 took 2816 msec (59870/52978 units/units) (17934 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1811 msec (59870/52978 units/units) (17934 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1608 msec (59870/52978 units/units) (17934 reps) (kewb-basic)
+UTF-8 to UTF-16 took  939 msec (59870/52978 units/units) (17934 reps) (kewb-fast)
+UTF-8 to UTF-16 took  556 msec (59870/52978 units/units) (17934 reps) (kewb-sse)
+
+for file: 'z1_kosme.txt'
+UTF-8 to UTF-16 took 4045 msec (53/47 units/units) (20259279 reps) (iconv)
+UTF-8 to UTF-16 took 3966 msec (53/47 units/units) (20259279 reps) (llvm)
+UTF-8 to UTF-16 took 5250 msec (53/47 units/units) (20259279 reps) (std::codecvt)
+UTF-8 to UTF-16 took 2846 msec (53/47 units/units) (20259279 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1727 msec (53/47 units/units) (20259279 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1757 msec (53/47 units/units) (20259279 reps) (kewb-basic)
+UTF-8 to UTF-16 took 1118 msec (53/47 units/units) (20259279 reps) (kewb-fast)
+UTF-8 to UTF-16 took  503 msec (53/47 units/units) (20259279 reps) (kewb-sse)
+
+for file: 'z1_ascii.txt'
+UTF-8 to UTF-16 took 6963 msec (37/37 units/units) (29020049 reps) (iconv)
+UTF-8 to UTF-16 took 4333 msec (37/37 units/units) (29020049 reps) (llvm)
+UTF-8 to UTF-16 took 6513 msec (37/37 units/units) (29020049 reps) (std::codecvt)
+UTF-8 to UTF-16 took 2979 msec (37/37 units/units) (29020049 reps) (Boost.Text)
+UTF-8 to UTF-16 took 1593 msec (37/37 units/units) (29020049 reps) (hoehrmann)
+UTF-8 to UTF-16 took 1813 msec (37/37 units/units) (29020049 reps) (kewb-basic)
+UTF-8 to UTF-16 took 1043 msec (37/37 units/units) (29020049 reps) (kewb-fast)
+UTF-8 to UTF-16 took  213 msec (37/37 units/units) (29020049 reps) (kewb-sse)
+
+tabular summary:
+file\algo, iconv, llvm, std::codecvt, Boost.Text, Hoehrmann, kewb-basic, kewb-fast, kewb-sse
+english_wiki.txt, 3152, 4076, 4466, 2420, 1526, 1274, 637, 229
+chinese_wiki.txt, 3066, 3687, 3876, 2974, 1812, 1628, 1072, 654
+hindi_wiki.txt, 3138, 3791, 5833, 3315, 2186, 1896, 1294, 1005
+japanese_wiki.txt, 3094, 3527, 4059, 3384, 1887, 1621, 1204, 945
+korean_wiki.txt, 3212, 4010, 4031, 3164, 2085, 1837, 1188, 768
+portuguese_wiki.txt, 3066, 3964, 5959, 2752, 1811, 1657, 885, 305
+russian_wiki.txt, 3640, 3913, 4122, 3017, 2022, 1788, 1255, 926
+swedish_wiki.txt, 3145, 4039, 4074, 2643, 1690, 1623, 854, 307
+stress_test_0.txt, 2981, 3871, 6609, 2511, 1577, 1256, 630, 193
+stress_test_1.txt, 2530, 2320, 2695, 3411, 1336, 1244, 1233, 1127
+stress_test_2.txt, 2688, 2936, 2928, 3083, 1565, 1662, 1040, 1633
+hindi_wiki_in_english.txt, 3066, 3924, 4072, 2476, 1539, 1308, 643, 237
+hindi_wiki_in_russian.txt, 5919, 4062, 4102, 3074, 2084, 1827, 1285, 959
+kermit.txt, 3220, 3939, 3992, 2816, 1811, 1608, 939, 556
+z1_kosme.txt, 4045, 3966, 5250, 2846, 1727, 1757, 1118, 503
+z1_ascii.txt, 6963, 4333, 6513, 2979, 1593, 1813, 1043, 213
+

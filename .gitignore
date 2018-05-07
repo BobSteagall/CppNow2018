@@ -7,7 +7,6 @@ tmp
 .vs
 *.bak
 *.db
-*.log
 *.opendb
 *.sdf
 *.suo
