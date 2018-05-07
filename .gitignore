@@ -1,0 +1,16 @@
+build-*
+cmake-*
+tmp
+/x64*
+/x86*
+.idea
+.vs
+*.bak
+*.db
+*.log
+*.opendb
+*.sdf
+*.suo
+*.tmp
+*.vcxproj.user
+~*
