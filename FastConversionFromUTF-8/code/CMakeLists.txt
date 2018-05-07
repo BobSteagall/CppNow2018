@@ -38,7 +38,6 @@ endif()
 if(CMAKE_CXX_COMPILER STREQUAL clang++)
 
     set(CMAKE_C_FLAGS_DEBUG   "-g -Wall -pedantic -Wextra")
-    #set(CMAKE_CXX_FLAGS_DEBUG "-g -std=c++14 -stdlib=libc++ -Wall -pedantic -Wextra -Wno-unused-parameter")
     set(CMAKE_CXX_FLAGS_DEBUG "-g -std=c++14 -Wall -pedantic -Wextra -Wno-unused-parameter")
 
     set(CMAKE_C_FLAGS_RELEASE   "-O3 -march=westmere -Wall -pedantic -Wextra")
