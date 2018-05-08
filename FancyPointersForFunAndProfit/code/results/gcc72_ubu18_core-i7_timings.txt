@@ -1,0 +1,341 @@
+
+copy/wrapper_strategy/uint64_t, 0.99921, 100
+copy/wrapper_strategy/uint64_t, 0.99926, 200
+copy/wrapper_strategy/uint64_t, 0.99883, 500
+copy/wrapper_strategy/uint64_t, 0.99449, 1000
+copy/wrapper_strategy/uint64_t, 0.99844, 2000
+copy/wrapper_strategy/uint64_t, 1.00033, 5000
+copy/wrapper_strategy/uint64_t, 0.99553, 10000
+copy/wrapper_strategy/uint64_t, 1.00040, 20000
+copy/wrapper_strategy/uint64_t, 0.99754, 50000
+copy/wrapper_strategy/uint64_t, 1.00154, 100000
+copy/wrapper_strategy/uint64_t, 1.00128, 200000
+copy/wrapper_strategy/uint64_t, 0.99726, 500000
+copy/wrapper_strategy/uint64_t, 0.99332, 1000000
+
+copy/based_2d_xl_strategy/uint64_t, 0.99735, 100
+copy/based_2d_xl_strategy/uint64_t, 0.99988, 200
+copy/based_2d_xl_strategy/uint64_t, 1.00077, 500
+copy/based_2d_xl_strategy/uint64_t, 0.99751, 1000
+copy/based_2d_xl_strategy/uint64_t, 0.99987, 2000
+copy/based_2d_xl_strategy/uint64_t, 0.99930, 5000
+copy/based_2d_xl_strategy/uint64_t, 1.00089, 10000
+copy/based_2d_xl_strategy/uint64_t, 0.99625, 20000
+copy/based_2d_xl_strategy/uint64_t, 1.00099, 50000
+copy/based_2d_xl_strategy/uint64_t, 0.99849, 100000
+copy/based_2d_xl_strategy/uint64_t, 1.00071, 200000
+copy/based_2d_xl_strategy/uint64_t, 0.99681, 500000
+copy/based_2d_xl_strategy/uint64_t, 0.99428, 1000000
+
+copy/based_2d_sm_strategy/uint64_t, 0.99371, 100
+copy/based_2d_sm_strategy/uint64_t, 0.99482, 200
+copy/based_2d_sm_strategy/uint64_t, 0.99594, 500
+copy/based_2d_sm_strategy/uint64_t, 0.99218, 1000
+copy/based_2d_sm_strategy/uint64_t, 0.99443, 2000
+copy/based_2d_sm_strategy/uint64_t, 1.00076, 5000
+copy/based_2d_sm_strategy/uint64_t, 0.99820, 10000
+copy/based_2d_sm_strategy/uint64_t, 0.99661, 20000
+copy/based_2d_sm_strategy/uint64_t, 0.99813, 50000
+copy/based_2d_sm_strategy/uint64_t, 0.99908, 100000
+copy/based_2d_sm_strategy/uint64_t, 0.99440, 200000
+copy/based_2d_sm_strategy/uint64_t, 1.00457, 500000
+copy/based_2d_sm_strategy/uint64_t, 1.00070, 1000000
+
+copy/based_2d_msk_strategy/uint64_t, 1.00834, 100
+copy/based_2d_msk_strategy/uint64_t, 1.17798, 200
+copy/based_2d_msk_strategy/uint64_t, 1.20327, 500
+copy/based_2d_msk_strategy/uint64_t, 1.23659, 1000
+copy/based_2d_msk_strategy/uint64_t, 1.10997, 2000
+copy/based_2d_msk_strategy/uint64_t, 1.09956, 5000
+copy/based_2d_msk_strategy/uint64_t, 1.10090, 10000
+copy/based_2d_msk_strategy/uint64_t, 1.10389, 20000
+copy/based_2d_msk_strategy/uint64_t, 1.10627, 50000
+copy/based_2d_msk_strategy/uint64_t, 1.08882, 100000
+copy/based_2d_msk_strategy/uint64_t, 1.06470, 200000
+copy/based_2d_msk_strategy/uint64_t, 1.05510, 500000
+copy/based_2d_msk_strategy/uint64_t, 1.05337, 1000000
+
+copy/offset_strategy/uint64_t, 1.05043, 100
+copy/offset_strategy/uint64_t, 1.04574, 200
+copy/offset_strategy/uint64_t, 1.05732, 500
+copy/offset_strategy/uint64_t, 1.06323, 1000
+copy/offset_strategy/uint64_t, 1.06714, 2000
+copy/offset_strategy/uint64_t, 1.09299, 5000
+copy/offset_strategy/uint64_t, 1.09304, 10000
+copy/offset_strategy/uint64_t, 1.09266, 20000
+copy/offset_strategy/uint64_t, 1.09579, 50000
+copy/offset_strategy/uint64_t, 1.08619, 100000
+copy/offset_strategy/uint64_t, 1.07328, 200000
+copy/offset_strategy/uint64_t, 1.06772, 500000
+copy/offset_strategy/uint64_t, 1.07461, 1000000
+
+tabular summary for copy() with uint64_t:
+strategy\elements, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000, 100000, 200000, 500000, 1000000
+wrapper, 0.99921, 0.99926, 0.99883, 0.99449, 0.99844, 1.00033, 0.99553, 1.00040, 0.99754, 1.00154, 1.00128, 0.99726, 0.99332
+based_2d_xl, 0.99735, 0.99988, 1.00077, 0.99751, 0.99987, 0.99930, 1.00089, 0.99625, 1.00099, 0.99849, 1.00071, 0.99681, 0.99428
+based_2d_sm, 0.99371, 0.99482, 0.99594, 0.99218, 0.99443, 1.00076, 0.99820, 0.99661, 0.99813, 0.99908, 0.99440, 1.00457, 1.00070
+based_2d_msk, 1.00834, 1.17798, 1.20327, 1.23659, 1.10997, 1.09956, 1.10090, 1.10389, 1.10627, 1.08882, 1.06470, 1.05510, 1.05337
+offset, 1.05043, 1.04574, 1.05732, 1.06323, 1.06714, 1.09299, 1.09304, 1.09266, 1.09579, 1.08619, 1.07328, 1.06772, 1.07461
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+copy/wrapper_strategy/test_struct, 0.99166, 100
+copy/wrapper_strategy/test_struct, 0.99563, 200
+copy/wrapper_strategy/test_struct, 0.99368, 500
+copy/wrapper_strategy/test_struct, 0.99732, 1000
+copy/wrapper_strategy/test_struct, 1.00024, 2000
+copy/wrapper_strategy/test_struct, 0.99904, 5000
+copy/wrapper_strategy/test_struct, 0.99514, 10000
+copy/wrapper_strategy/test_struct, 0.99321, 20000
+copy/wrapper_strategy/test_struct, 0.99225, 50000
+copy/wrapper_strategy/test_struct, 0.99467, 100000
+copy/wrapper_strategy/test_struct, 0.99132, 200000
+copy/wrapper_strategy/test_struct, 0.99494, 500000
+copy/wrapper_strategy/test_struct, 1.00278, 1000000
+
+copy/based_2d_xl_strategy/test_struct, 1.04015, 100
+copy/based_2d_xl_strategy/test_struct, 0.99702, 200
+copy/based_2d_xl_strategy/test_struct, 0.99844, 500
+copy/based_2d_xl_strategy/test_struct, 0.99811, 1000
+copy/based_2d_xl_strategy/test_struct, 0.99587, 2000
+copy/based_2d_xl_strategy/test_struct, 1.00095, 5000
+copy/based_2d_xl_strategy/test_struct, 0.99853, 10000
+copy/based_2d_xl_strategy/test_struct, 0.99045, 20000
+copy/based_2d_xl_strategy/test_struct, 0.99450, 50000
+copy/based_2d_xl_strategy/test_struct, 0.99522, 100000
+copy/based_2d_xl_strategy/test_struct, 0.99729, 200000
+copy/based_2d_xl_strategy/test_struct, 0.99287, 500000
+copy/based_2d_xl_strategy/test_struct, 1.00077, 1000000
+
+copy/based_2d_sm_strategy/test_struct, 1.03729, 100
+copy/based_2d_sm_strategy/test_struct, 0.99973, 200
+copy/based_2d_sm_strategy/test_struct, 1.00235, 500
+copy/based_2d_sm_strategy/test_struct, 1.00107, 1000
+copy/based_2d_sm_strategy/test_struct, 1.00017, 2000
+copy/based_2d_sm_strategy/test_struct, 0.99866, 5000
+copy/based_2d_sm_strategy/test_struct, 0.99490, 10000
+copy/based_2d_sm_strategy/test_struct, 0.99941, 20000
+copy/based_2d_sm_strategy/test_struct, 0.99477, 50000
+copy/based_2d_sm_strategy/test_struct, 0.99834, 100000
+copy/based_2d_sm_strategy/test_struct, 0.99059, 200000
+copy/based_2d_sm_strategy/test_struct, 0.99605, 500000
+copy/based_2d_sm_strategy/test_struct, 0.99764, 1000000
+
+copy/based_2d_msk_strategy/test_struct, 1.09338, 100
+copy/based_2d_msk_strategy/test_struct, 0.99305, 200
+copy/based_2d_msk_strategy/test_struct, 1.00043, 500
+copy/based_2d_msk_strategy/test_struct, 0.99393, 1000
+copy/based_2d_msk_strategy/test_struct, 0.99864, 2000
+copy/based_2d_msk_strategy/test_struct, 0.99955, 5000
+copy/based_2d_msk_strategy/test_struct, 0.99846, 10000
+copy/based_2d_msk_strategy/test_struct, 0.99418, 20000
+copy/based_2d_msk_strategy/test_struct, 0.99740, 50000
+copy/based_2d_msk_strategy/test_struct, 0.99517, 100000
+copy/based_2d_msk_strategy/test_struct, 0.99984, 200000
+copy/based_2d_msk_strategy/test_struct, 0.99591, 500000
+copy/based_2d_msk_strategy/test_struct, 0.99712, 1000000
+
+copy/offset_strategy/test_struct, 1.17969, 100
+copy/offset_strategy/test_struct, 1.02943, 200
+copy/offset_strategy/test_struct, 1.02321, 500
+copy/offset_strategy/test_struct, 1.02298, 1000
+copy/offset_strategy/test_struct, 1.00074, 2000
+copy/offset_strategy/test_struct, 1.00100, 5000
+copy/offset_strategy/test_struct, 1.00520, 10000
+copy/offset_strategy/test_struct, 1.00515, 20000
+copy/offset_strategy/test_struct, 1.00090, 50000
+copy/offset_strategy/test_struct, 0.99874, 100000
+copy/offset_strategy/test_struct, 0.99634, 200000
+copy/offset_strategy/test_struct, 0.99677, 500000
+copy/offset_strategy/test_struct, 0.99696, 1000000
+
+tabular summary for copy() with test_struct:
+strategy\elements, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000, 100000, 200000, 500000, 1000000
+wrapper, 0.99166, 0.99563, 0.99368, 0.99732, 1.00024, 0.99904, 0.99514, 0.99321, 0.99225, 0.99467, 0.99132, 0.99494, 1.00278
+based_2d_xl, 1.04015, 0.99702, 0.99844, 0.99811, 0.99587, 1.00095, 0.99853, 0.99045, 0.99450, 0.99522, 0.99729, 0.99287, 1.00077
+based_2d_sm, 1.03729, 0.99973, 1.00235, 1.00107, 1.00017, 0.99866, 0.99490, 0.99941, 0.99477, 0.99834, 0.99059, 0.99605, 0.99764
+based_2d_msk, 1.09338, 0.99305, 1.00043, 0.99393, 0.99864, 0.99955, 0.99846, 0.99418, 0.99740, 0.99517, 0.99984, 0.99591, 0.99712
+offset, 1.17969, 1.02943, 1.02321, 1.02298, 1.00074, 1.00100, 1.00520, 1.00515, 1.00090, 0.99874, 0.99634, 0.99677, 0.99696
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+sort/wrapper_strategy/uint64_t, 1.13570, 100
+sort/wrapper_strategy/uint64_t, 1.06467, 200
+sort/wrapper_strategy/uint64_t, 1.03078, 500
+sort/wrapper_strategy/uint64_t, 1.00724, 1000
+sort/wrapper_strategy/uint64_t, 1.00220, 2000
+sort/wrapper_strategy/uint64_t, 1.01024, 5000
+sort/wrapper_strategy/uint64_t, 0.99506, 10000
+sort/wrapper_strategy/uint64_t, 1.00717, 20000
+sort/wrapper_strategy/uint64_t, 1.01101, 50000
+sort/wrapper_strategy/uint64_t, 1.01841, 100000
+sort/wrapper_strategy/uint64_t, 1.00382, 200000
+sort/wrapper_strategy/uint64_t, 1.01356, 500000
+sort/wrapper_strategy/uint64_t, 1.01199, 1000000
+
+sort/based_2d_xl_strategy/uint64_t, 1.10042, 100
+sort/based_2d_xl_strategy/uint64_t, 1.02967, 200
+sort/based_2d_xl_strategy/uint64_t, 1.03888, 500
+sort/based_2d_xl_strategy/uint64_t, 1.03103, 1000
+sort/based_2d_xl_strategy/uint64_t, 1.01737, 2000
+sort/based_2d_xl_strategy/uint64_t, 1.02742, 5000
+sort/based_2d_xl_strategy/uint64_t, 0.97409, 10000
+sort/based_2d_xl_strategy/uint64_t, 1.00684, 20000
+sort/based_2d_xl_strategy/uint64_t, 1.00928, 50000
+sort/based_2d_xl_strategy/uint64_t, 1.00673, 100000
+sort/based_2d_xl_strategy/uint64_t, 1.00102, 200000
+sort/based_2d_xl_strategy/uint64_t, 1.00601, 500000
+sort/based_2d_xl_strategy/uint64_t, 1.00280, 1000000
+
+sort/based_2d_sm_strategy/uint64_t, 1.17388, 100
+sort/based_2d_sm_strategy/uint64_t, 1.13078, 200
+sort/based_2d_sm_strategy/uint64_t, 1.08681, 500
+sort/based_2d_sm_strategy/uint64_t, 1.08657, 1000
+sort/based_2d_sm_strategy/uint64_t, 1.06467, 2000
+sort/based_2d_sm_strategy/uint64_t, 1.06779, 5000
+sort/based_2d_sm_strategy/uint64_t, 1.07103, 10000
+sort/based_2d_sm_strategy/uint64_t, 1.07580, 20000
+sort/based_2d_sm_strategy/uint64_t, 1.06982, 50000
+sort/based_2d_sm_strategy/uint64_t, 1.07616, 100000
+sort/based_2d_sm_strategy/uint64_t, 1.07221, 200000
+sort/based_2d_sm_strategy/uint64_t, 1.07401, 500000
+sort/based_2d_sm_strategy/uint64_t, 1.06929, 1000000
+
+sort/based_2d_msk_strategy/uint64_t, 1.55417, 100
+sort/based_2d_msk_strategy/uint64_t, 1.45801, 200
+sort/based_2d_msk_strategy/uint64_t, 1.43537, 500
+sort/based_2d_msk_strategy/uint64_t, 1.43686, 1000
+sort/based_2d_msk_strategy/uint64_t, 1.44634, 2000
+sort/based_2d_msk_strategy/uint64_t, 1.37079, 5000
+sort/based_2d_msk_strategy/uint64_t, 1.40984, 10000
+sort/based_2d_msk_strategy/uint64_t, 1.43124, 20000
+sort/based_2d_msk_strategy/uint64_t, 1.43841, 50000
+sort/based_2d_msk_strategy/uint64_t, 1.42999, 100000
+sort/based_2d_msk_strategy/uint64_t, 1.42977, 200000
+sort/based_2d_msk_strategy/uint64_t, 1.42210, 500000
+sort/based_2d_msk_strategy/uint64_t, 1.42229, 1000000
+
+sort/offset_strategy/uint64_t, 2.27020, 100
+sort/offset_strategy/uint64_t, 2.00723, 200
+sort/offset_strategy/uint64_t, 1.85396, 500
+sort/offset_strategy/uint64_t, 1.79953, 1000
+sort/offset_strategy/uint64_t, 1.80934, 2000
+sort/offset_strategy/uint64_t, 1.77135, 5000
+sort/offset_strategy/uint64_t, 1.75521, 10000
+sort/offset_strategy/uint64_t, 1.76658, 20000
+sort/offset_strategy/uint64_t, 1.75924, 50000
+sort/offset_strategy/uint64_t, 1.76049, 100000
+sort/offset_strategy/uint64_t, 1.74815, 200000
+sort/offset_strategy/uint64_t, 1.73949, 500000
+sort/offset_strategy/uint64_t, 1.73616, 1000000
+
+tabular summary for sort() with uint64_t:
+strategy\elements, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000, 100000, 200000, 500000, 1000000
+wrapper, 1.13570, 1.06467, 1.03078, 1.00724, 1.00220, 1.01024, 0.99506, 1.00717, 1.01101, 1.01841, 1.00382, 1.01356, 1.01199
+based_2d_xl, 1.10042, 1.02967, 1.03888, 1.03103, 1.01737, 1.02742, 0.97409, 1.00684, 1.00928, 1.00673, 1.00102, 1.00601, 1.00280
+based_2d_sm, 1.17388, 1.13078, 1.08681, 1.08657, 1.06467, 1.06779, 1.07103, 1.07580, 1.06982, 1.07616, 1.07221, 1.07401, 1.06929
+based_2d_msk, 1.55417, 1.45801, 1.43537, 1.43686, 1.44634, 1.37079, 1.40984, 1.43124, 1.43841, 1.42999, 1.42977, 1.42210, 1.42229
+offset, 2.27020, 2.00723, 1.85396, 1.79953, 1.80934, 1.77135, 1.75521, 1.76658, 1.75924, 1.76049, 1.74815, 1.73949, 1.73616
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+sort/wrapper_strategy/test_struct, 1.00690, 100
+sort/wrapper_strategy/test_struct, 0.98062, 200
+sort/wrapper_strategy/test_struct, 0.97652, 500
+sort/wrapper_strategy/test_struct, 0.96231, 1000
+sort/wrapper_strategy/test_struct, 0.97596, 2000
+sort/wrapper_strategy/test_struct, 0.97734, 5000
+sort/wrapper_strategy/test_struct, 0.97617, 10000
+sort/wrapper_strategy/test_struct, 0.98306, 20000
+sort/wrapper_strategy/test_struct, 0.98425, 50000
+sort/wrapper_strategy/test_struct, 0.97613, 100000
+sort/wrapper_strategy/test_struct, 0.98448, 200000
+sort/wrapper_strategy/test_struct, 0.98923, 500000
+sort/wrapper_strategy/test_struct, 0.98390, 1000000
+
+sort/based_2d_xl_strategy/test_struct, 1.10135, 100
+sort/based_2d_xl_strategy/test_struct, 1.05398, 200
+sort/based_2d_xl_strategy/test_struct, 1.03533, 500
+sort/based_2d_xl_strategy/test_struct, 1.04568, 1000
+sort/based_2d_xl_strategy/test_struct, 1.03469, 2000
+sort/based_2d_xl_strategy/test_struct, 1.04187, 5000
+sort/based_2d_xl_strategy/test_struct, 1.04194, 10000
+sort/based_2d_xl_strategy/test_struct, 1.03797, 20000
+sort/based_2d_xl_strategy/test_struct, 1.04422, 50000
+sort/based_2d_xl_strategy/test_struct, 1.04598, 100000
+sort/based_2d_xl_strategy/test_struct, 1.03327, 200000
+sort/based_2d_xl_strategy/test_struct, 1.03325, 500000
+sort/based_2d_xl_strategy/test_struct, 1.03170, 1000000
+
+sort/based_2d_sm_strategy/test_struct, 1.07618, 100
+sort/based_2d_sm_strategy/test_struct, 1.03850, 200
+sort/based_2d_sm_strategy/test_struct, 1.01692, 500
+sort/based_2d_sm_strategy/test_struct, 1.01208, 1000
+sort/based_2d_sm_strategy/test_struct, 1.03515, 2000
+sort/based_2d_sm_strategy/test_struct, 1.02947, 5000
+sort/based_2d_sm_strategy/test_struct, 1.02496, 10000
+sort/based_2d_sm_strategy/test_struct, 1.03217, 20000
+sort/based_2d_sm_strategy/test_struct, 1.04192, 50000
+sort/based_2d_sm_strategy/test_struct, 1.02883, 100000
+sort/based_2d_sm_strategy/test_struct, 1.03516, 200000
+sort/based_2d_sm_strategy/test_struct, 1.03445, 500000
+sort/based_2d_sm_strategy/test_struct, 1.03091, 1000000
+
+sort/based_2d_msk_strategy/test_struct, 1.10543, 100
+sort/based_2d_msk_strategy/test_struct, 1.06052, 200
+sort/based_2d_msk_strategy/test_struct, 1.04697, 500
+sort/based_2d_msk_strategy/test_struct, 1.04177, 1000
+sort/based_2d_msk_strategy/test_struct, 1.05411, 2000
+sort/based_2d_msk_strategy/test_struct, 1.04157, 5000
+sort/based_2d_msk_strategy/test_struct, 1.03452, 10000
+sort/based_2d_msk_strategy/test_struct, 1.04614, 20000
+sort/based_2d_msk_strategy/test_struct, 1.04090, 50000
+sort/based_2d_msk_strategy/test_struct, 1.04176, 100000
+sort/based_2d_msk_strategy/test_struct, 1.04401, 200000
+sort/based_2d_msk_strategy/test_struct, 1.03784, 500000
+sort/based_2d_msk_strategy/test_struct, 1.03842, 1000000
+
+sort/offset_strategy/test_struct, 1.37853, 100
+sort/offset_strategy/test_struct, 1.23689, 200
+sort/offset_strategy/test_struct, 1.17687, 500
+sort/offset_strategy/test_struct, 1.16130, 1000
+sort/offset_strategy/test_struct, 1.12318, 2000
+sort/offset_strategy/test_struct, 1.15941, 5000
+sort/offset_strategy/test_struct, 1.14878, 10000
+sort/offset_strategy/test_struct, 1.14776, 20000
+sort/offset_strategy/test_struct, 1.15197, 50000
+sort/offset_strategy/test_struct, 1.14781, 100000
+sort/offset_strategy/test_struct, 1.14460, 200000
+sort/offset_strategy/test_struct, 1.14805, 500000
+sort/offset_strategy/test_struct, 1.14092, 1000000
+
+tabular summary for sort() with test_struct:
+strategy\elements, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000, 100000, 200000, 500000, 1000000
+wrapper, 1.00690, 0.98062, 0.97652, 0.96231, 0.97596, 0.97734, 0.97617, 0.98306, 0.98425, 0.97613, 0.98448, 0.98923, 0.98390
+based_2d_xl, 1.10135, 1.05398, 1.03533, 1.04568, 1.03469, 1.04187, 1.04194, 1.03797, 1.04422, 1.04598, 1.03327, 1.03325, 1.03170
+based_2d_sm, 1.07618, 1.03850, 1.01692, 1.01208, 1.03515, 1.02947, 1.02496, 1.03217, 1.04192, 1.02883, 1.03516, 1.03445, 1.03091
+based_2d_msk, 1.10543, 1.06052, 1.04697, 1.04177, 1.05411, 1.04157, 1.03452, 1.04614, 1.04090, 1.04176, 1.04401, 1.03784, 1.03842
+offset, 1.37853, 1.23689, 1.17687, 1.16130, 1.12318, 1.15941, 1.14878, 1.14776, 1.15197, 1.14781, 1.14460, 1.14805, 1.14092
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+hello, world! good-bye, world!
+  test1 : 1
+  test2 : 2
+
+hello, world! good-bye, world!
+  test1 : 1
+  test2 : 2
+
+hello, world! good-bye, world!
+  test1 : 1
+  test2 : 2
+
+hello, world! good-bye, world!
+  test1 : 1
+  test2 : 2
+
+hello, world! good-bye, world!
+  test1 : 1
+  test2 : 2
+
