@@ -1,6 +1,10 @@
 ## Overview
 
-This directory contains a snapshot of my experimental work on high-speed conversion/transcoding of UTF-8 to UTF-32/UTF-16.  The interesting bits are implemented in the `UtfUtils` class defined in the files `src/utf_utils.(h|cpp)`.  A small test suite is included, and instructions are provided below for building and running on Linux and Windows.
+This directory contains a PDF and supporting materials for my C++Now 2018 talk entitled **Fast Conversion from UTF-8 with C++, DFAs, and SSE Intrinsics**.  It also contains snapshot of my experimental work on high-speed conversion/transcoding of UTF-8 to UTF-32/UTF-16.  The interesting bits are implemented in the `UtfUtils` class defined in the files `src/utf_utils.(h|cpp)`.  A small test suite is included, and instructions are provided below for building and running on Linux and Windows.
+
+## Contents
+
+The source code is contained in the ``code/src`` and ``code/test`` subdirectories.  The ``code`` subdirectory contains a solution and project file for Visual Studio 2017.
 
 ## About `UtfUtils`
 
@@ -31,7 +35,7 @@ To build and run: clone the repo, run the provided handy-dandy CMake setup scrip
 ```
     $ cd <some_work_dir>
     $ git clone https://github.com/BobSteagall/CppNow2018.git
-    $ cd CppNow2018/FastConversionFromUTF-8/utf_utils
+    $ cd CppNow2018/FastConversionFromUTF-8/code
     $ ./setup_cmake_builds.sh
     $
     $ cd build-release-gcc
@@ -44,7 +48,7 @@ To build and run: clone the repo, run the provided handy-dandy CMake setup scrip
     $ ./utf_utils_test -dd ../test_data
 ```
 
-If you find yourself needing to re-run CMake from one of the build directories, use the `run_cmake.sh` script:
+If you find yourself needing to re-run CMake from one of the build directories, you can use the `run_cmake.sh` script:
 
 ```
     $ cd ../build-release-gcc
@@ -67,8 +71,8 @@ To build: clone the repo, open the `UtfUtils.sln` solution file in the project r
 To run: open a Command Prompt window, PowerShell window, MinGW shell window, or Cygwin shell window and change directory to the project root.  From there, you can execute the test program with something like this (with Command Prompt):
 
 ```
-    C:\some_work_dir> cd CppNow2018\FastConversionFromUTF-8\utf_utils
-    C:\some_work_dir\...\utf_utils> build-win\x64\Release\UtfUtils.exe -dd test_data
+    C:\some_work_dir> cd CppNow2018\FastConversionFromUTF-8\code
+    C:\some_work_dir\...\code> build-win\x64\Release\UtfUtils.exe -dd test_data
 ```
 
 NB: The repo contains a pre-built version of [libiconv](https://www.gnu.org/software/libiconv/) built with Visual Studio 2015 against the Windows 8.1 SDK.  It includes static libraries for Debug/Release configurations on x86/x64.  The test program uses these libraries as part of its benchmarking.  I've built and tested the test program with all four library configurations with VS2015/2017 on Windows 8.1/10.
@@ -90,4 +94,4 @@ Please let me know if you find any errors or problems, and as always, feedback a
 
 --Bob
 
-P.S. For the site where this and other C++ work will appear in the future, see [The State Machine](https://bobsteagall.com).
+P.S. For the site where this and other C++ work will appear in the future, see my website [The State Machine](https://bobsteagall.com).

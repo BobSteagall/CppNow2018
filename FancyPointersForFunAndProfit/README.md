@@ -31,4 +31,4 @@ $ ./fancy [args]
 
 ## Other Work
 
-For my other C++ work, see my site [The State Machine](https://bobsteagall.com).
+For my other C++ work, see my website [The State Machine](https://bobsteagall.com).
